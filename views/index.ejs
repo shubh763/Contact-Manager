@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Manager</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="animated fadeInDown">Contact Manager</h1>
+        <div class="options-container">
+            <div class="option-card animated fadeInLeft" onclick="window.location.href='/add-contact'">
+                <i class="fas fa-user-plus"></i>
+                <h2>Add Contact</h2>
+                <p>Create a new contact entry</p>
+            </div>
+            <div class="option-card animated fadeInRight" onclick="window.location.href='/view-contacts'">
+                <i class="fas fa-address-book"></i>
+                <h2>View Contacts</h2>
+                <p>Browse your saved contacts</p>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
